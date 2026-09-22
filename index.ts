@@ -11,3 +11,7 @@ let num1: number = 0;
 let num2: number = 0;
 
 showMenu();
+
+function power(base: number, exponent: number): number {
+    return Math.pow(base, exponent);
+}
