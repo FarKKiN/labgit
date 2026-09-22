@@ -12,7 +12,6 @@ let num2: number = 0;
 
 showMenu();
 
-<<<<<<< HEAD
 function setNumbers(a: number, b: number) {
     num1 = a;
     num2 = b;
@@ -28,12 +27,12 @@ function subtract(a: number, b: number): number {
 };
 
 
-=======
 function divide(a: number, b: number): number {
     if (b === 0) {
         console.log("делить на ноль нельзя");
         return 0;
     }
     return a / b;
-}
->>>>>>> branch_divide
+};
+
+
