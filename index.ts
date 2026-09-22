@@ -15,5 +15,10 @@ showMenu();
 function setNumbers(a: number, b: number) {
     num1 = a;
     num2 = b;
-    console.log(`Числа установлены: ${num1} и ${num2}`);
-}
+    console.log(`Числа установлены: ${num1} и ${num2}`)
+};
+
+function add(a: number, b: number): number {
+    return a + b;
+};
+
