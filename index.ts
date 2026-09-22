@@ -12,7 +12,6 @@ let num2: number = 0;
 
 showMenu();
 
-<<<<<<< HEAD
 function setNumbers(a: number, b: number) {
     num1 = a;
     num2 = b;
@@ -37,8 +36,6 @@ function divide(a: number, b: number): number {
 };
 
 
-=======
 function power(base: number, exponent: number): number {
     return Math.pow(base, exponent);
 }
->>>>>>> branch_power
