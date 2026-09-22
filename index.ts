@@ -12,6 +12,7 @@ let num2: number = 0;
 
 showMenu();
 
+<<<<<<< HEAD
 function setNumbers(a: number, b: number) {
     num1 = a;
     num2 = b;
@@ -22,3 +23,8 @@ function add(a: number, b: number): number {
     return a + b;
 };
 
+=======
+function subtract(a: number, b: number): number {
+    return a - b;
+}
+>>>>>>> branch_subtraction
